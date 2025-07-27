@@ -3,14 +3,7 @@ import React, { useState } from 'react';
 export default function Sidebar() {
   const [activeFolder, setActiveFolder] = useState(0);
   const [folders] = useState([
-    { id: 0, name: 'All Files', size: '4.2 GB' },
-    { id: 1, name: 'Documents', size: '1.2 GB' },
-    { id: 2, name: 'Images', size: '2.1 GB' },
-    { id: 3, name: 'Videos', size: '780 MB' },
-    { id: 4, name: 'Projects', size: '1.8 GB' },
-    { id: 5, name: 'Archive', size: '520 MB' },
-    { id: 6, name: 'Shared', size: '340 MB' },
-    { id: 7, name: 'Backups', size: '3.5 GB' },
+      //     Add File show here create show here i create folder show here example Video Folder
   ]);
 
   return (
