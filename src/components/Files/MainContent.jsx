@@ -6,14 +6,13 @@ import UploadZone from './UploadZone';
 
 export default function MainContent() {
   const [files] = useState([
-    { id: 1, type: 'folder', name: 'Project Documents', size: '320 MB', items: 24, date: 'Mar 15, 2023' },
-    { id: 2, type: 'image', name: 'Landscape.jpg', size: '4.2 MB', date: 'Apr 2, 2023' },
-    { id: 3, type: 'document', name: 'Financial Report.pdf', size: '2.1 MB', date: 'Apr 5, 2023' },
-    { id: 4, type: 'video', name: 'Product Demo.mp4', size: '45.7 MB', date: 'Apr 8, 2023' },
-    { id: 5, type: 'folder', name: 'Client Assets', size: '120 MB', items: 18, date: 'Apr 10, 2023' },
-    { id: 6, type: 'document', name: 'Meeting Notes.docx', size: '0.8 MB', date: 'Apr 12, 2023' },
-    { id: 7, type: 'image', name: 'Screenshot.png', size: '1.2 MB', date: 'Apr 14, 2023' },
-    { id: 8, type: 'document', name: 'Contract Agreement.pdf', size: '3.4 MB', date: 'Apr 15, 2023' },
+    // show that file and folder example
+    // folder
+    // Project Documents
+    // 320 MB
+    // 24
+    // Mar 15, 2023
+  //     file and folder show here
   ]);
   
   const handleFilterChange = (filter) => {
