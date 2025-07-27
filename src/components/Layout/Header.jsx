@@ -1,4 +1,7 @@
 import React from 'react';
+import {IoFileTrayStackedOutline} from "react-icons/io5";
+import { FaMapMarkerAlt } from "react-icons/fa";
+
 
 export default function Header({ onDisconnect }) {
   return (
@@ -12,8 +15,12 @@ export default function Header({ onDisconnect }) {
       
       <div className="flex items-center space-x-4">
         <div className="flex items-center bg-gray-100 rounded-full py-1 px-3">
-          <div className="bg-gray-300 border-2 border-dashed rounded-xl w-8 h-8" />
-          <span className="ml-2 font-medium text-gray-700">John Doe</span>
+          <IoFileTrayStackedOutline />
+          <span className="ml-2 font-medium text-gray-700">Here show Bucket name</span>
+        </div>
+        <div className="flex items-center bg-gray-100 rounded-full py-1 px-3">
+          <FaMapMarkerAlt />
+          <span className="ml-2 font-medium text-gray-700">Here show Region Example (eu-north-1) like that show here</span>
         </div>
         <button 
           onClick={onDisconnect}

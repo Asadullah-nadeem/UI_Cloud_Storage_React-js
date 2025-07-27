@@ -44,7 +44,7 @@ export default function UploadZone() {
             Drag files here or click to upload
           </p>
           <p className="mt-1 text-sm text-gray-500">
-            Max file size: 10MB. Supported formats: JPG, PNG, PDF, DOC, etc.
+            File Supported formats: JPG, PNG, PDF, DOC, etc.
           </p>
           <button className="mt-4 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors">
             Browse Files
