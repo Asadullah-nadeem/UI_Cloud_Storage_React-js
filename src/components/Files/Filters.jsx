@@ -3,14 +3,15 @@ import React, { useState } from 'react';
 export default function Filters({ onFilterChange }) {
   const [activeFilter, setActiveFilter] = useState('all');
   const filters = [
-    { id: 'all', name: 'All' },
-    { id: 'image', name: 'Image' },
-    { id: 'video', name: 'Video' },
-    { id: 'audio', name: 'Audio' },
-    { id: 'document', name: 'Document' },
-    { id: 'code', name: 'Code' },
-    { id: 'archive', name: 'Archive' },
-    { id: 'other', name: 'Other' },
+    // 'all', name: 'All'
+    // 'image', name: 'Image'
+    //  'video', name: 'Video'
+    //  'audio', name: 'Audio'
+    //  'document', name: 'Document'
+    // 'code', name: 'Code'
+    //  'archive', name: 'Archive'
+    // 'other', name: 'Other'
+    // here file show that can upper side if filters show only these type file show not extrat file show that
   ];
 
   const handleFilter = (id) => {
